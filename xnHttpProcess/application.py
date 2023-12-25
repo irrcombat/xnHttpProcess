@@ -2,7 +2,7 @@ from functools import wraps
 import json
 from routes import Mapper
 
-from network import Request, Response
+from .network import Request, Response
 
 
 class HttpProcess:

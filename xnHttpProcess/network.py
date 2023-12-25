@@ -1,3 +1,6 @@
+from typing import Any
+
+
 class Request:
     url: str
     host: str
@@ -8,3 +11,9 @@ class Request:
     headers: dict
     query: str
     body: str
+
+
+class Response:
+    code: int = 200
+    headers: dict = {}
+    body: Any
