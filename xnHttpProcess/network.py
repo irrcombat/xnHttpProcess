@@ -2,6 +2,7 @@ from typing import Any
 
 
 class Request:
+    ip: str
     url: str
     host: str
     path: str
