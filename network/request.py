@@ -1,0 +1,10 @@
+class Request:
+    url: str
+    host: str
+    path: str
+    port: int
+    scheme: str
+    method: str
+    headers: dict
+    query: str
+    body: str
